@@ -5,12 +5,14 @@ print(6/3)
 print(2**2)  #Exponential
 
 
-# PEMDAS
+# PEMDASLR
 # Brackets
 # Exponents
 # Multiplication
 # Division 
 # Addition
 # Substraction
+
+print("Using BEMDAS" ,3*3+3/3-3)
 
 
