@@ -1,0 +1,1 @@
+input("What is was the total bill?")
