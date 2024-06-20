@@ -77,3 +77,11 @@ print(states_of_America)
 # Length of the list
 
 print(len(states_of_America))
+
+
+# Nested Lists
+
+fruits=['Strawberries','Apples','Banana','Orange']
+vegetables=['Spinach','Kale','Tomato']
+nestedlist=[fruits,vegetables]
+print(nestedlist)
