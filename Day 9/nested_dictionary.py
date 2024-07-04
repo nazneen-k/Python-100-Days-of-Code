@@ -10,7 +10,6 @@ travel_log = {
 }
 
 # Nesting Dictionary in a List
-
 travel_log=[
     {
         "country":"France",
