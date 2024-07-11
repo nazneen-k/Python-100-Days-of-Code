@@ -45,6 +45,7 @@ def playgame():
         computer_cards.append(deal_card())
 
     while not is_game_over:
+        
 
         user_score=calculate_score(user_cards)
         computer_score=calculate_score(computer_cards)
