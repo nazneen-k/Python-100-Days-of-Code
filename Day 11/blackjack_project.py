@@ -70,5 +70,5 @@ def playgame():
     print(compare(user_score,computer_score))
 
 
-while input("Do you want to play a game of Blackjack? Type 'y' Or 'n': ") =="y":
+while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") =="y":
     playgame()
