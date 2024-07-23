@@ -28,3 +28,22 @@ enemies=["Skeleton","Zoombie","Alien"]
 if game_level<5:
     new_enemy=enemies[0]
 print(new_enemy) #---> Doesnt throw any error 
+
+
+# Modifying Global Scope
+# We can even use global word and use it but its not preferred, you can use instead use Return
+
+enemies=1
+
+def increase_enemies():
+    # enemies+=1   ---> This throws Error 
+    print(f"Enemies inside function {enemies}")
+    return enemies+1
+
+increase_enemies()
+print(f"Enemies outside function: {enemies}")
+
+
+# Global Constants
+PI= 3.14159
+URL= "https://www.google.com"
