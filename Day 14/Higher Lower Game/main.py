@@ -43,6 +43,7 @@ while game_should_continue:
 
     a_follower_count = account_a["follower_count"]
     b_follower_count = account_b["follower_count"]
+    
 
     is_correct= check_answer(guess,a_follower_count,b_follower_count)
 
