@@ -22,7 +22,6 @@ def check_answer(guess, a_followers,b_followers):
     else:
         return guess == "b"
     
-
 score=0
 game_should_continue =  True
 account_b= random.choice(data)
