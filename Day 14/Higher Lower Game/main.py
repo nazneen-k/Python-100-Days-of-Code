@@ -5,8 +5,6 @@ import random
 # Display Art 
 print(logo)
 
-
-
 def format_data(account):
     """Takes the account data and returns the printable format"""
     account_name = account["name"]
