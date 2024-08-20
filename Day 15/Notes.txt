@@ -1,0 +1,2 @@
+Windows: Alt + Shift
+Mac: option + Shift
