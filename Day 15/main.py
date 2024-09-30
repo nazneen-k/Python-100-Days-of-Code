@@ -53,7 +53,7 @@ def is_transaction_successful(money_recieved, drink_cost):
 
 is_on= True
 while is_on:
-    choice = input("What would you like>? (espresso/latte/cuppuccino)")
+    choice = input("What would you like>? (espresso/latte/cuppuccino) ")
     if choice=="off":
         is_on = False
         
