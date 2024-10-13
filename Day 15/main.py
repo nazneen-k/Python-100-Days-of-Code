@@ -49,7 +49,7 @@ def process_coins():
     return total
 
 def is_transaction_successful(money_recieved, drink_cost):
-    """Return True when the Payment is accepted, or False if the money is insufficient"""
+    """Return True when the Payment is accepted, or False if the money is insufficient """
 
 is_on= True
 while is_on:
