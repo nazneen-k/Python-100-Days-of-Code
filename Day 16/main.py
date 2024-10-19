@@ -1,7 +1,7 @@
 # Object Oriented Programming
 
 
-# import another_module
+# import another_modul e
 # print(another_module.another_variable)
 
 from turtle import Turtle, Screen
@@ -20,4 +20,5 @@ timmy.forward(100)
 
 my_screen = Screen()
 print(my_screen.canvheight)
+
 my_screen.exitonclick()
