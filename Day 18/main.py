@@ -46,6 +46,5 @@ for shape_side_n in range(3,11):
     timmy_the_turtle.choice(random.choice(colours))
     draw_shape(shape_side_n)
 
-
 screen = Screen()
 screen.exitonclick()
