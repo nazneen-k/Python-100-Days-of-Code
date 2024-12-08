@@ -43,7 +43,7 @@ def draw_shape(num_sides):
 
 
 for shape_side_n in range(3,11):
-    timmy_the_turtle.choice(random.choice(colours))
+    timmy_the_turtle.color(random.choice(colours))
     draw_shape(shape_side_n)
 
 
