@@ -53,6 +53,5 @@ for _ in range(200):
     timmy_the_turtle(30)
     timmy_the_turtle(random.choice(directions))
 
-
 screen = Screen()
 screen.exitonclick()
