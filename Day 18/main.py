@@ -35,7 +35,8 @@ for tim in range(10):
 
 colours=["CornflowerBlue","DarkOrchid","IndianRed","DeepSkyBlue","LightSeaGreen","wheat","SlateGray","SeaGreen"]
 directions=[0,90,180,270]
-
+timmy_the_turtle.pensize(15)
+timmy_the_turtle.speed("fastest")
 
 # def draw_shape(num_sides):
 #     angle=360/num_sides
@@ -50,8 +51,9 @@ directions=[0,90,180,270]
 
 
 for _ in range(200):
-    timmy_the_turtle(30)
-    timmy_the_turtle(random.choice(directions))
+    timmy_the_turtle.forward(30)
+    timmy_the_turtle.setheading(random.choice(directions))
+
 
 screen = Screen()
 screen.exitonclick()
