@@ -21,8 +21,6 @@ for tim in range(10):
 
 
 
-
-
 # Drawing different shapes
 
 # num_size=5
@@ -43,7 +41,6 @@ timmy_the_turtle.speed("fastest")
 #     for _ in range(num_sides):
 #         timmy_the_turtle.forward(100)
 #         timmy_the_turtle.right(angle)
-
 
 # for shape_side_n in range(3,11):
 #     timmy_the_turtle.color(random.choice(colours))
